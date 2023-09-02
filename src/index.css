@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  width: 100vw;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.752),rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.785)), url("./assets//header-image.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
